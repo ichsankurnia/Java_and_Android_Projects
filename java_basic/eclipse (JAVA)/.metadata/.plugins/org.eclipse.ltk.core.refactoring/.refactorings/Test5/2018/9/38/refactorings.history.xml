@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;herbivora.java&apos; to &apos;manusia.java&apos;&#x0D;&#x0A;- Original project: &apos;Test5&apos;&#x0D;&#x0A;- Original element: &apos;herbivora.java&apos;&#x0D;&#x0A;- Renamed element: &apos;manusia.java&apos;" description="Rename compilation unit &apos;herbivora.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{herbivora.java" name="manusia.java" references="false" stamp="1537454391297" version="1.0"/>
+</session>

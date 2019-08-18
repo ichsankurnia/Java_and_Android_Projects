@@ -1,0 +1,55 @@
+class test {
+	public static void main(String[] args) {
+		int a= 10;
+		a += 5; // x++; => x = x + 1; || x--; => x = x - 1; || x += 5; => x = x + 5;
+		byte b = 20; //byte -128 s.d 128
+		
+		System.out.println("nilai tipe data int untuk a adalah = "+ a);
+		System.out.println("nilai tipe data byte untuk b adalah = "+ b);
+		
+		float c = 22.5f; //float 32b harus pake f
+		double d = 24.5;
+		System.out.println("Nilai tipe data float : "+ c +" Untuk double adalah = "+ d);
+		
+		String text = "Hei... Mutia";
+		String text2 = "Hai : " + text;
+		System.out.println(text2 + " Shafira" + " " + "Chairunisa");
+		
+		int x = 5;
+		switch(x){
+		case 1:
+			System.out.println("nilai x 1");
+			break;
+		case 5:
+			System.out.println("nilai x 5");
+			break;
+		case 10:
+			System.out.println("nilai x 10");
+			break;
+		default :
+			System.out.println("nilai x tidak memenuhi");
+		}
+		
+		int i = 0;
+		while(i<5) {
+		System.out.println("hasilnya = "+i);
+		i++; // i = 1 + 1
+		}
+		
+		int j = 0;
+		do {
+		System.out.println("hasil do while = "+j);
+		j++; // i = 1 + 1
+		}while (i<5);
+		
+		for(int k=0; k<10; k++) {
+			if(k == 3 || k == 6) {
+				continue;
+			}
+			else if(k == 9) {
+				break;
+			}
+			System.out.print(k+" ");
+		}
+	}
+}
